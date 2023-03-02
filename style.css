@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: DELIRIUM NCV;
+    src: url(Asset/DELIRIUM\ NCV.ttf);
+}
 * {
     margin: 0;
     padding: 0;
