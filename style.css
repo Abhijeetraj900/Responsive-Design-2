@@ -109,3 +109,75 @@
 
 }
 
+#main #bottom{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    bottom: 4%;
+    left: 50%;
+    transform: translate(-50% ,0);
+    height: 200px;
+}
+
+#bottom img {
+    width: 60%;
+}
+
+#bottom #four{
+    width: 20vw;
+    color: white;
+}
+#bottom p{
+    width: 80%;
+    margin: 20px 0;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#bottom button{
+    padding: .8vw 1.3vw;
+    border: none;
+    outline: none;
+    background-color: rgb(48, 82, 48);
+    color: white;
+    border-radius: 10%;
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: .3vw;
+    text-transform: uppercase;
+}
+
+
+@media(max-width: 500px){
+    #nav{
+        height: 10vh;
+    }
+
+    #nav #center h3{
+         font-size: 7vw;
+         font-weight: 100;
+    }
+
+    #maintext>h1{
+        font-size: 30vw;
+        line-height: 28vw;
+        white-space: nowrap;
+    }
+
+    #maintext .row h4{
+       font-size: 7vw;
+    }
+
+    #main #one{
+        width: 95vw;
+    }
+
+    #main #bottom{
+        width: 80%;
+    }
+}
