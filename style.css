@@ -1,13 +1,11 @@
 
-/* @import url(Asset/DELIRIUM\ NCV.ttf); */
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-#main{
+#main {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -15,7 +13,7 @@
     background: radial-gradient(rgb(205, 235, 205), rgb(179, 227, 179), rgb(127, 232, 127));
 }
 
-#nav{
+#nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,7 +23,7 @@
     position: relative;
 }
 
-#main #nav #center{
+#main #nav #center {
     position: absolute;
     display: flex;
     align-items: center;
@@ -33,17 +31,17 @@
     color: white;
     top: 50%;
     left: 50%;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%, -50%);
 }
 
-#nav #center h3{
+#nav #center h3 {
     font-family: "DELIRIUM NCV";
     font-size: 2vw;
     font-weight: 400;
-    
+
 }
 
-#center .line{
+#center .line {
 
     width: 7vw;
     height: 2px;
@@ -57,24 +55,24 @@
     transform: translate(-50%, -50%);
 }
 
-#maintext .row{
+#maintext .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#maintext .row h4{
+#maintext .row h4 {
     font-family: "DELIRIUM NCV";
     color: white;
     font-weight: 100;
     font-size: 1.7vw;
 }
 
-#maintext .row h4:nth-child(2){
+#maintext .row h4:nth-child(2) {
     color: rgb(19, 58, 19);
 }
 
-#maintext> h1{
+#maintext>h1 {
     font-size: 12vw;
     font-family: "DELIRIUM NCV";
     color: white;
@@ -82,7 +80,7 @@
     line-height: 10vw;
 }
 
-#main #one{
+#main #one {
     position: absolute;
     width: 40vw;
     top: 45%;
@@ -91,7 +89,7 @@
 
 }
 
-#main #two{
+#main #two {
     position: absolute;
     width: 20vw;
     top: 45%;
@@ -100,7 +98,7 @@
 
 }
 
-#main #three{
+#main #three {
     position: absolute;
     width: 20vw;
     top: 45%;
@@ -109,7 +107,7 @@
 
 }
 
-#main #bottom{
+#main #bottom {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -118,7 +116,7 @@
     width: 50%;
     bottom: 4%;
     left: 50%;
-    transform: translate(-50% ,0);
+    transform: translate(-50%, 0);
     height: 200px;
 }
 
@@ -126,11 +124,12 @@
     width: 60%;
 }
 
-#bottom #four{
+#bottom #four {
     width: 20vw;
     color: white;
 }
-#bottom p{
+
+#bottom p {
     width: 80%;
     margin: 20px 0;
     text-align: center;
@@ -139,7 +138,7 @@
     font-size: 14px;
 }
 
-#bottom button{
+#bottom button {
     padding: .8vw 1.3vw;
     border: none;
     outline: none;
@@ -153,31 +152,31 @@
 }
 
 
-@media(max-width: 500px){
-    #nav{
+@media(max-width: 500px) {
+    #nav {
         height: 10vh;
     }
 
-    #nav #center h3{
-         font-size: 7vw;
-         font-weight: 100;
+    #nav #center h3 {
+        font-size: 7vw;
+        font-weight: 100;
     }
 
-    #maintext>h1{
+    #maintext>h1 {
         font-size: 30vw;
         line-height: 28vw;
         white-space: nowrap;
     }
 
-    #maintext .row h4{
-       font-size: 7vw;
+    #maintext .row h4 {
+        font-size: 7vw;
     }
 
-    #main #one{
+    #main #one {
         width: 95vw;
     }
 
-    #main #bottom{
+    #main #bottom {
         width: 80%;
     }
 }
